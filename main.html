@@ -7,11 +7,24 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <nav>
+    <nav class="navbar">
         <ul>
-            <li>Home </li>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="maps.html">Maps</a></li>
+            <li><a href="https://www.wikipedia.org/">Contact Us</a></li>
         </ul>
     </nav>
-    
+    <main>
+        <form id="cohereForm">
+            <label for="prompt">Enter your prompt:</label><br>
+            <input type="text" id="prompt" name="prompt"><br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="response"></div>
+
+        <script src="script.js"></script>
+    </main>
+
 </body>
 </html>
