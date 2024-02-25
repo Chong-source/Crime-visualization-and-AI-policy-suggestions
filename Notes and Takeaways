@@ -1,0 +1,19 @@
+Data bases:
+- Neighborhood Crime Rates: https://open.toronto.ca/dataset/neighbourhood-crime-rates/
+- Neighborhood Profiles: https://open.toronto.ca/dataset/neighbourhood-profiles/
+
+Tools:
+- LLM(Large Language Models) - Used for backends of applications
+- Github Copilot
+- Flask
+- Open ML (Now there are many machine learning algorithms that you can implement without having to code it)
+- Neural Networks
+
+Project Continuation idea:
+- Step 1: We will merge databases of crime rates in the area and the database of neighborhood profiles
+  - Thus, each neighborhood will have all the data from the open data source in toronto
+- Step 2: We will feed this information into an existing machine learning model, the model will use these data to generate specific answers from these data bases,
+for example, if we ask: what area has the highest crime rate and lowest levels of education?, the AI would be able to generate an answer from that.
+- Step 3: We will use AI to parse through data that's "relevant" in areas with high rates of crime, meaning there is some standout features from the area that is
+different from all other areas.
+- Step 4: Feed the AI research papers about policies on crime, and see if the AI can give very specific, implementable suggestions to the user.
